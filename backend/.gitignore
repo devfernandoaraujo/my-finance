@@ -1,0 +1,33 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python bytecode
+*.pyc
+
+# Ignore development settings
+settings/*.py
+
+# Ignore local development files
+.env
+.env.local
+.env.*.local
+
+# Ignore editor swap files
+*.swp
+
+# Ignore development and build artifacts
+build/
+dist/
+eggs/
+lib/
+*.egg-info/
+*.py[cod]
+
+# Ignore Django files
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Ignore macOS files
+.DS_Store
